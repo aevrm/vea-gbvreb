@@ -1,2 +1,2 @@
 # vea-gbvreb
-Temporary Hosting For Project - index.html is home file
+Temporary Hosting For Project - index.html is home page
