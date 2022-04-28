@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  background: #ffffff;
+  color: #898989;
+  font-family: "Poppins", helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+  #footer {
+    background: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #footer .socials-media {
+    width: 100%;
+  }
+  
+  #footer .socials-media ul {
+    display: inline-block;
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  
+  #footer .socials-media ul li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #footer .socials-media ul li a {
+    font-size: 24px;
+    color: #999;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    background: transparent;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #footer .socials-media ul li a:hover {
+    color: #b8a07e;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #footer p {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+  
+  .credits {
+    font-size: 13px;
+  }
+
+
+
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: right;
+    position: absolute;
+    bottom: 170px;
+    right: 90px;
+    color: rgb(232, 232, 232);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+  }
+
+  div.text-block h1 {
+    font-size: 50px;
+  }
+
+  .div-img-bg {
+    top: 10px;
+  }
+
+  @media (max-width: 575.98px)
+  {
+    .text-block {
+    
+        width: 80%;
+        bottom: 10px;
+        padding-left: 0;
+        right: 15px;
+        color: rgb(50, 49, 46);
+    
+      }
+    
+      div.text-block h1 {
+        font-size: 50px;
+      }
+  }
+
+  @media (max-width: 400px)
+  {
+    .text-block {
+    
+        width: 80%;
+        bottom: 10px;
+        padding-left: 0;
+        right: 15px;
+        color: rgb(50, 49, 46);
+    
+      }
+    
+      div.text-block h1 {
+        font-size: 50px;
+      }
+  }
+
+  @media (max-width: 800px)
+  {
+    .text-block
+    {
+        width: 80%;
+        bottom: 30px;
+        padding-left: 0;
+        right: 20px;
+        color: rgb(50, 49, 46);
+    }
+
+  }
+
+
+  @media (max-width: 1000px)
+  {
+    .text-block
+    {
+        width: 80%;
+        bottom: 30px;
+        padding-left: 0;
+        right: 20px;
+    }
+
+  }
+
+  @media (max-width: 1200px)
+  {
+    .text-block
+    {
+        width: 80%;
+        bottom: 30px;
+        padding-left: 0;
+        right: 20px;
+    }
+
+  }
+
+  @media (max-width: 1600px)
+  {
+    .text-block
+    {
+        width: 80%;
+        bottom: 80px;
+        padding-left: 0;
+        right: 70px;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
